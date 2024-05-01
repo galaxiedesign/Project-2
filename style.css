@@ -1,0 +1,194 @@
+body {
+    background-image: linear-gradient(#FC5E55,#f44083);
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    display: inline;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.herobox1 {
+    flex: 2;
+    padding-right: 60px;
+}
+
+.herobox2 {
+    flex: 1;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+}
+
+.card2 {
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+}
+
+.card3 {
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+}
+
+.card1, .card2, .card3 {
+    padding: 20px 30px 20px 30px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: "Playfair Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 2rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.322);
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: "Playfair Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+p {
+   padding-bottom: 1rem; 
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin-top: 15px;
+}
+
+i {
+    font-size: 100px;
+}
+
+.mybutton {
+    background-color: white;
+    color: #FC5E55;
+    font-family: "Playfair Display", sans-serif;
+    padding: 11px 25px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.322);
+}
+
+.mybutton:hover {
+    background-color: burlywood;
+    transition-duration: 1s;
+}
+
+.navbutton {
+    font-family: Playfair Display, sans serif;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 11px 25px;
+    margin-left: 5px;
+    border-radius: 3px;
+    position: relative;
+}
+
+/*this makes the drop down disappear*/
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/*this makes the drop down appear on hover*/
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton {
+    width: 150px;
+    background-color: white;
+    margin-left: -26px;
+    border-radius: 0;
+}
+
+.dropdown .navbutton:hover {
+    background-color: #000000;
+}
+
+.dropdown .navbutton a {
+    color: #f44083;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.tbox p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 40px;
+}
